@@ -1,6 +1,6 @@
 {
   "name": "node-sftp2",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "SFTP implementation for node.js",
   "author": "ajax.org B.V. <info@ajax.org>",
   "contributors": [
@@ -21,9 +21,6 @@
     "pty.js": "git://github.com/chjj/pty.js"
   },
   "main": "./lib/sftp.js",
-  "scripts": {
-    "test": "node test/sftp.js && node test/ssh.js"
-  },
   "licenses": [
     {
       "type": "The MIT License",
