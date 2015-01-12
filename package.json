@@ -1,23 +1,23 @@
 {
   "name": "node-sftp2",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "SFTP implementation for node.js",
   "author": "ajax.org B.V. <info@ajax.org>",
   "contributors": [
     "Mike de Boer <mike@c9.io>",
     "Fabian Jakobs <fabian@c9.io>"
   ],
-  "homepage": "http://github.com/ajaxorg/node-sftp",
+  "homepage": "http://github.com/deviavir/node-sftp",
   "repository": {
     "type": "git",
-    "url": "http://github.com/ajaxorg/node-sftp.git"
+    "url": "http://github.com/deviavir/node-sftp.git"
   },
   "engine": {
     "node": ">=0.4.x"
   },
   "dependencies": {
     "asyncjs": "~0.0.6",
-    "pty.js-11": "~0.2.5"
+    "pty": "~0.0.0"
   },
   "main": "./lib/sftp.js",
   "scripts": {
@@ -30,7 +30,7 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/ajaxorg/node-sftp/issues"
+    "url": "https://github.com/deviavir/node-sftp/issues"
   },
   "directories": {
     "test": "test"
