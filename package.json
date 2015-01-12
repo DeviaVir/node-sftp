@@ -1,6 +1,6 @@
 {
   "name": "node-sftp2",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "SFTP implementation for node.js",
   "author": "ajax.org B.V. <info@ajax.org>",
   "contributors": [
@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "asyncjs": "~0.0.6",
-    "pty.js": "~0.2.4"
+    "pty.js-11": "~0.2.5"
   },
   "main": "./lib/sftp.js",
   "scripts": {
